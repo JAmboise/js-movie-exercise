@@ -9,12 +9,6 @@ GET {{url}}/movies
 ### Get a movie by id ------------------
 GET {{url}}/movies/{{id}}
 
-### Get movies by genre ----------------
-GET {{url}}/movies/genre/Action
-
-### Get movies by director -------------
-GET {{url}}/movies/director/Christopher%20Nolan
-
 ### Add a movie ------------------------
 POST {{url}}/movies
 Content-Type: application/json
@@ -50,4 +44,10 @@ Content-Type: application/json
 
 ### Delete a movie ---------------------
 DELETE {{url}}/movies/{{id}}
+
+### Get movies by genre ----------------
+GET {{url}}/movies/genre/Action
+
+### Get movies by director -------------
+GET {{url}}/movies/director/Christopher%20Nolan
 
