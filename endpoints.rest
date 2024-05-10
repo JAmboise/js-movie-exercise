@@ -1,13 +1,16 @@
 
 ### Variables
 @url = http://localhost:3001/api/v1
-@id = 660b0f7a895cbc861a6b77ad
+@id = 663d33489650849dd19103a2
 
 ### Get all movies ---------------------
 GET {{url}}/movies
 
+ /movies
+
 ### Get a movie by id ------------------
 GET {{url}}/movies/{{id}}
+
 
 ### Add a movie ------------------------
 POST {{url}}/movies
